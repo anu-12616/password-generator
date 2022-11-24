@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div>
+            <form id="pg-form">
+                <div class="result">
+                    <input type="text" id="result" placeholder="min 6 char">
+                    <div class="clipboard">
+                        <ion-icon name="clipboard-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="length">Length</label>
+                    <input type="number" id="length" name="length" value="12" min="6">
+                </div>
+                <div class="field">
+                    <label for="capital">Capital letter</label>
+                    <input type="checkbox" checked id="capital">
+                </div>
+                <div class="field">
+                    <label for="small">Small letter</label>
+                    <input type="checkbox" checked id="small">
+                </div>
+                <div class="field">
+                    <label for="symbol">Small letter</label>
+                    <input type="checkbox" checked id="symbol">
+                </div>
+                <div class="field">
+                    <label for="numbers">Numbers</label>
+                    <input type="checkbox" checked id="numbers">
+                </div>
+                <button type="submit">Generate Password</button>
+                <button type="submit">Generate old Password</button>
+            </form>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- script tag -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
